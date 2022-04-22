@@ -1,0 +1,16 @@
+#!/bin/bash
+
+case $1 in
+	-l)
+		curl https://wttr.in/$2?F?0
+	;;
+	-r)
+		curl https://wttr.in/$2?format=3
+	;;
+	-c)
+		curl https://wttr.in/$2?F
+	;;
+	*)
+		curl https://wttr.in?F?Q?0
+	;;
+esac
