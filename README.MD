@@ -1,4 +1,4 @@
-## Just a simple script to display the weather on the terminal
+## Just a simple script to display the weather on the terminal using the wttr API
 
 **if no parameters are passed the the weather information will come for the user local ip** 
 
